@@ -1,0 +1,26 @@
+nav {
+    text-align: center;
+    height: 100px;
+    text-transform: capitalize;
+    display: flex;
+    a {
+        color: #fff;
+        text-decoration: none;
+        background: rgba(#fff, .2);
+        align-items: center;
+        flex-grow: 2;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        span {
+            flex: 1;
+        }
+        &:hover {
+            background: rgba(#fff, .4);
+        }
+    }
+    a.sign {
+        flex-grow: 1;
+        background: rgba(#fff, .1);
+    }
+}
